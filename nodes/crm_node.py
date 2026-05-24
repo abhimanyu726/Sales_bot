@@ -1,6 +1,4 @@
-from services.crm_service import (
-    CRMService
-)
+from services.crm_service import CRMService
 
 
 class CRMNode:

@@ -1,10 +1,5 @@
-from services.llm_service import (
-    LLMService
-)
-
-from prompts.system_prompts import (
-    SALES_RESPONSE_PROMPT
-)
+from services.llm_service import LLMService
+from prompts.system_prompts import SALES_RESPONSE_PROMPT
 
 
 class ResponseNode:

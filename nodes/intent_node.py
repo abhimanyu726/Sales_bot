@@ -1,18 +1,7 @@
-from langchain_core.output_parsers import (
-    PydanticOutputParser
-)
-
-from services.llm_service import (
-    LLMService
-)
-
-from prompts.system_prompts import (
-    INTENT_ANALYSIS_PROMPT
-)
-
-from graph.state import (
-    IntentOutput
-)
+from langchain_core.output_parsers import PydanticOutputParser
+from services.llm_service import LLMService
+from prompts.system_prompts import INTENT_ANALYSIS_PROMPT
+from graph.state import IntentOutput
 
 
 class IntentNode:

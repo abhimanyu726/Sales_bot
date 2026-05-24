@@ -1,18 +1,7 @@
-from langchain_core.output_parsers import (
-    PydanticOutputParser
-)
-
-from services.llm_service import (
-    LLMService
-)
-
-from prompts.system_prompts import (
-    LEAD_QUALIFICATION_PROMPT
-)
-
-from graph.state import (
-    QualificationOutput
-)
+from langchain_core.output_parsers import PydanticOutputParser
+from services.llm_service import LLMService
+from prompts.system_prompts import LEAD_QUALIFICATION_PROMPT
+from graph.state import QualificationOutput
 
 
 class QualificationNode:

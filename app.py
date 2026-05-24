@@ -1,9 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from graph.sales_graph import (
-    SalesGraph
-)
+from graph.sales_graph import SalesGraph
 
 app = FastAPI()
 

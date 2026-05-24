@@ -9,7 +9,6 @@ class LLMService:
         self.llm = ChatOpenAI(
             api_key=Settings.OPENAI_API_KEY,
             model=Settings.MODEL_NAME,
-            temperature=Settings.TEMPERATURE
         )
 
     async def generate(
