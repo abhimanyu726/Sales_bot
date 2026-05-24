@@ -333,15 +333,3 @@ uvicorn app:app --reload --port 8080
 - Voice AI support
 
 ---
-
-# Assignment Alignment
-
-This project satisfies the assignment requirements by implementing:
-- LangGraph-based workflow orchestration
-- outbound sales automation
-- scalable modular architecture
-- low-latency AI pipeline design
-- script adherence validation
-- enterprise escalation handling
-- structured AI outputs
-- production-style orchestration
